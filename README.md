@@ -2,7 +2,7 @@
 With this project we will deploy with 3-tier web application composed of a Frond-end, Backend and Database infrastructure. 
 ![WEBAPP-CAPTURE](https://github.com/Armandkeza/N-tier-Azure-Web-APP/assets/4728642/1da6aa3a-c8c1-47ee-9de1-0a39bdffdd6e)
 
-1. Securing Web application access
+###1. Securing Web application access
  The enduser will access the Frontend of the application via an application gateway with WAF. For application availability the frontend servers are configured in an auto-scaling group accross 2 Availabilty zone.
 WAF policies will be configured to inspect all incoming traffic to the application to detect and block any malicious traffic toward the application.
 
