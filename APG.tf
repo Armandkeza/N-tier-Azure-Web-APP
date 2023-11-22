@@ -18,6 +18,7 @@ resource "azurerm_application_gateway" "Webapp-APG" {
     capacity = 2
   
   }
+   zones      = ["1","2"]
   firewall_policy_id = azurerm_web_application_firewall_policy.webapp-waf.id
 
   gateway_ip_configuration {
