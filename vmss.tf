@@ -8,7 +8,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "Front-vmss" {
   instances           = 2
   zones               = ["1","2"]
   admin_username      = "adminuser"
-  admin_password       = "Admin1#$%^&*()"
+  admin_password       = "******" 
   disable_password_authentication = false
   custom_data = filebase64("/cloud-init.txt")
 
