@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "webapp-storage" {
-  name                     = "ndayikeza135"
+  name                     = "webapp-strge"
   location            = azurerm_resource_group.Webapp.location
   resource_group_name = azurerm_resource_group.Webapp.name
   account_tier             = "Standard"
